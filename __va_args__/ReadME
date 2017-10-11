@@ -1,0 +1,7 @@
+comac_agc(...)宏计算可变参数个数
+gcc -o sample -gdwarf-2 -g3 sample.c
+gdb -new sample
+    list
+    macro exp test(a,b,c)
+    macro exp test2()
+    macro exp test()
